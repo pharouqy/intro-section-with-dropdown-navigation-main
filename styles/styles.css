@@ -116,7 +116,8 @@ body>header>nav>ul>li:nth-child(1) {
   padding: 5px 20px 5px 20px;
 }
 
-body>header>nav>ul>li:nth-child(2) {
+body>header>nav>ul>li:nth-child(2),
+#header>nav>ul>li:nth-child(2) {
   padding: 5px 20px 5px 20px;
   border: 2px solid hsl(0, 0%, 41%);
   border-radius: 10px;
@@ -306,7 +307,16 @@ aside>img:nth-child(2) {
     margin-bottom: 15px;
   }
 
-  #header>div>nav>ul>li:nth-child(1):hover ul, #header > div > nav > ul > li:nth-child(2):hover ul {
+  #header>div>nav>ul>li:nth-child(1):hover ul,
+  #header>div>nav>ul>li:nth-child(2):hover ul {
     display: block;
+  }
+
+  #header>nav {
+    width: 145%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
