@@ -255,22 +255,19 @@ aside>img:nth-child(2) {
     transition: all 0.5s;
   }
 
-  #humburger:hover div:nth-child(1),
-  #humburger:active div:nth-child(1) {
+  #humburger:hover div:nth-child(1) {
     transform: rotate(45deg);
     position: relative;
     top: 8px;
     right: 0px;
   }
 
-  #humburger:hover div:nth-child(2),
-  #humburger:active div:nth-child(2) {
+  #humburger:hover div:nth-child(2) {
     transform: rotate(-45deg);
     top: 0;
   }
 
-  #humburger:hover div:nth-child(3),
-  #humburger:active div:nth-child(3) {
+  #humburger:hover div:nth-child(3) {
     display: none;
   }
 
@@ -308,8 +305,7 @@ aside>img:nth-child(2) {
     margin-bottom: 15px;
   }
 
-  #header>div>nav>ul>li:nth-child(1):hover ul,
-  #header>div>nav>ul>li:nth-child(2):hover ul {
+  #header>div>nav>ul>li:nth-child(1):hover ul {
     display: block;
   }
 
