@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap");
 
 * {
   margin: 0;
@@ -9,7 +9,7 @@
 body {
   margin: 0 auto;
   max-width: 1440px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 18px;
   line-height: 1.5;
   color: hsl(0, 0%, 8%);
@@ -33,7 +33,7 @@ nav {
   display: flex;
 }
 
-#right-header>nav>ul {
+#right-header > nav > ul {
   display: flex;
   list-style: none;
   margin-left: 55px;
@@ -53,21 +53,21 @@ li {
   list-style: none;
 }
 
-#right-header>nav>ul>li {
+#right-header > nav > ul > li {
   list-style: none;
   margin-left: 20px;
 }
 
-#right-header>nav>ul>li svg {
+#right-header > nav > ul > li svg {
   margin-left: 10px;
 }
 
-nav>ul li:hover svg {
+nav > ul li:hover svg {
   transform: rotate(180deg);
   transition: transform 0.5s;
 }
 
-#right-header>nav>ul>li:nth-child(1)>ul {
+#right-header > nav > ul > li:nth-child(1) > ul {
   display: none;
   padding: 20px;
   flex-direction: column;
@@ -80,7 +80,7 @@ nav>ul li:hover svg {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
-#right-header>nav>ul>li:nth-child(2)>ul {
+#right-header > nav > ul > li:nth-child(2) > ul {
   display: none;
   padding: 20px;
   flex-direction: column;
@@ -93,32 +93,32 @@ nav>ul li:hover svg {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
-#right-header>nav>ul>li:nth-child(1)>ul>li>svg {
+#right-header > nav > ul > li:nth-child(1) > ul > li > svg {
   margin-right: 15px;
 }
 
-#right-header>nav>ul>li:nth-child(1),
-#right-header>nav>ul>li:nth-child(2) {
+#right-header > nav > ul > li:nth-child(1),
+#right-header > nav > ul > li:nth-child(2) {
   position: relative;
 }
 
-#right-header>nav>ul>li:nth-child(1):hover ul,
-#right-header>nav>ul>li:nth-child(2):hover ul {
+#right-header > nav > ul > li:nth-child(1):hover ul,
+#right-header > nav > ul > li:nth-child(2):hover ul {
   display: flex;
 }
 
-body>header>nav>ul {
+body > header > nav > ul {
   display: flex;
   list-style: none;
 }
 
-body>header>nav>ul>li:nth-child(1) {
+body > header > nav > ul > li:nth-child(1) {
   margin-right: 45px;
   padding: 5px 20px 5px 20px;
 }
 
-body>header>nav>ul>li:nth-child(2),
-#header>nav>ul>li:nth-child(2) {
+body > header > nav > ul > li:nth-child(2),
+#header > nav > ul > li:nth-child(2) {
   padding: 5px 20px 5px 20px;
   border: 2px solid hsl(0, 0%, 41%);
   border-radius: 10px;
@@ -168,16 +168,16 @@ button:hover {
   border: 2px solid hsl(0, 0%, 41%);
 }
 
-body>main>section>div:nth-child(1) {
+body > main > section > div:nth-child(1) {
   margin-top: 150px;
   margin-bottom: 165px;
 }
 
-section>div:nth-child(2) svg {
+section > div:nth-child(2) svg {
   margin-right: 45px;
 }
 
-aside>img:nth-child(2) {
+aside > img:nth-child(2) {
   display: none;
 }
 
@@ -187,11 +187,11 @@ aside>img:nth-child(2) {
 }
 
 @media all and (max-width: 375px) {
-  aside>img:nth-child(1) {
+  aside > img:nth-child(1) {
     display: none;
   }
 
-  aside>img:nth-child(2) {
+  aside > img:nth-child(2) {
     display: block;
     width: 100%;
     height: auto;
@@ -202,20 +202,20 @@ aside>img:nth-child(2) {
     padding: 0px;
   }
 
-  #right-header>nav,
-  #right-header+nav {
+  #right-header > nav,
+  #right-header + nav {
     display: none;
   }
 
-  section>div:nth-child(2) {
+  section > div:nth-child(2) {
     display: flex;
   }
 
-  section>div:nth-child(2) svg {
+  section > div:nth-child(2) svg {
     margin-right: 0px;
   }
 
-  section>div:nth-child(2) svg>path {
+  section > div:nth-child(2) svg > path {
     width: 50px;
     height: 0px;
   }
@@ -226,7 +226,7 @@ aside>img:nth-child(2) {
     margin-bottom: 5px;
   }
 
-  body>main>section>div:nth-child(1) {
+  body > main > section > div:nth-child(1) {
     margin-top: 50px;
     margin-bottom: 25px;
     text-align: center;
@@ -247,7 +247,7 @@ aside>img:nth-child(2) {
     z-index: 2;
   }
 
-  #humburger>div {
+  #humburger > div {
     width: 30px;
     height: 3px;
     background: hsl(0, 0%, 41%);
@@ -255,19 +255,19 @@ aside>img:nth-child(2) {
     transition: all 0.5s;
   }
 
-  #humburger:hover div:nth-child(1) {
+  #humburger div:nth-child(1) {
     transform: rotate(45deg);
     position: relative;
     top: 8px;
     right: 0px;
   }
 
-  #humburger:hover div:nth-child(2) {
+  #humburger div:nth-child(2) {
     transform: rotate(-45deg);
     top: 0;
   }
 
-  #humburger:hover div:nth-child(3) {
+  #humburger div:nth-child(3) {
     display: none;
   }
 
@@ -295,21 +295,21 @@ aside>img:nth-child(2) {
     transition: all 0.5s;
   }
 
-  #header>div>nav>ul>li>ul {
+  #header > div > nav > ul > li > ul {
     display: none;
     margin-left: 6px;
   }
 
-  #header>nav>ul li,
-  #header>div>nav>ul li {
+  #header > nav > ul li,
+  #header > div > nav > ul li {
     margin-bottom: 15px;
   }
 
-  #header>div>nav>ul>li:nth-child(1):hover ul {
+  #header > div > nav > ul > li:nth-child(1):hover ul {
     display: block;
   }
 
-  #header>nav {
+  #header > nav {
     width: 145%;
     text-align: center;
     display: flex;
