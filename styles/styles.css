@@ -256,19 +256,19 @@ aside > img:nth-child(2) {
   }
 
   #humburger div:nth-child(1) {
-    transform: rotate(45deg);
+    transform: rotate(0deg);
     position: relative;
-    top: 8px;
+    top: 0px;
     right: 0px;
   }
 
   #humburger div:nth-child(2) {
-    transform: rotate(-45deg);
+    transform: rotate(0deg);
     top: 0;
   }
 
   #humburger div:nth-child(3) {
-    display: none;
+    display: block;
   }
 
   div#header {
